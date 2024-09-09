@@ -1,0 +1,14 @@
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\bin\Debug\net8.0\Frågesport lmao.exe
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\bin\Debug\net8.0\Frågesport lmao.deps.json
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\bin\Debug\net8.0\Frågesport lmao.runtimeconfig.json
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\bin\Debug\net8.0\Frågesport lmao.dll
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\bin\Debug\net8.0\Frågesport lmao.pdb
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.AssemblyInfoInputs.cache
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.AssemblyInfo.cs
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.csproj.CoreCompileInputs.cache
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.dll
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\refint\Frågesport lmao.dll
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.pdb
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.genruntimeconfig.cache
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\ref\Frågesport lmao.dll
