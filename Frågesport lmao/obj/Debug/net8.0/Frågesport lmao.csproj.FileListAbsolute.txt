@@ -12,3 +12,4 @@ C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesp
 C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.pdb
 C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.genruntimeconfig.cache
 C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\ref\Frågesport lmao.dll
+C:\Users\vincent.sabrie\Desktop\Programmering 1\Frågesport (very cool)\Frågesport lmao\obj\Debug\net8.0\Frågesport lmao.sourcelink.json

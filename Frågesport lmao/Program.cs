@@ -29,20 +29,19 @@ using System.Xml.Schema;
 
 System.Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
-string svar = Console.ReadLine().ToLower();
 System.Console.WriteLine("Hejsan svejsan " + name + "!");
 int aura = 0;
 
 System.Console.WriteLine("Välkommen till Sigma frågesporten!");
 System.Console.WriteLine("Tryck på Enter för att börja :D");
-Console.ReadLine();
 
+string svar = Console.ReadLine().ToLower();
 System.Console.WriteLine
 ("1. Vad är en Sigma?");
 System.Console.WriteLine("a) Lone wolf          b) flockleadaren");
 System.Console.WriteLine("c) surtant            d) weeb");
 
-Console.ReadLine().ToLower();
+svar = Console.ReadLine().ToLower();
 if (svar == "a")
 {
     System.Console.WriteLine("Korrekt!");
