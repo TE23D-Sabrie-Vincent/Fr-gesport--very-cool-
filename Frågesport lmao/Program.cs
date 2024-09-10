@@ -94,7 +94,7 @@ if (svar == "c" || svar == "Fanum")
     else 
     {
         System.Console.WriteLine("You gyatt to be kidding me... du har fel! Du förlorade precis din gooning streak :c");
-        aura /= 2;
+        aura = - aura;
     }
 }
 
@@ -103,6 +103,10 @@ else if (svar == "a" || svar == "b" || svar == "d")
     System.Console.WriteLine("Erm what the sigma, du har fel...");
     aura --;
 }
+
+System.Console.WriteLine("4. Vem är Caseoh?");
+System.Console.WriteLine("a) Gorlocks pojkvän           b) En twitch streamer");
+System.Console.WriteLine("c) Kevin Nyman                d)Kristian killingher");
 
 System.Console.WriteLine();
 Console.ReadLine();
