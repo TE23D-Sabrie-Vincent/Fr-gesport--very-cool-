@@ -23,6 +23,7 @@
 // {
 //     Console.WriteLine("Nah you dead lol (no rizz)");
 // }
+
 using System.Diagnostics;
 using System.Net;
 using System.Xml.Schema;
@@ -105,9 +106,21 @@ else if (svar == "a" || svar == "b" || svar == "d")
 }
 
 System.Console.WriteLine("4. Vem är Caseoh?");
-System.Console.WriteLine("a) Gorlocks pojkvän           b) En twitch streamer");
-System.Console.WriteLine("c) Kevin Nyman                d)Kristian killingher");
+System.Console.WriteLine("a) Gorlocks pojkvän           b) En STOR twitch streamer");
+System.Console.WriteLine("c) Kevin Nyman                d) Kristian killingher");
 
-System.Console.WriteLine();
+svar = Console.ReadLine().ToLower();
+if (svar == "b" || svar == "en twitch streamer")
+{
+    System.Console.WriteLine("Korrekt! Han är gigantisk ändå lol XD");
+    aura ++;
+}
+    else if (svar == "a" || svar == "c" || svar == "d")
+    {
+        System.Console.WriteLine("FEL! Du missade ju min STORA ledtråd!!!!");
+        aura --;
+    }
+System.Console.WriteLine("5 Vilken måltid passar inte för män?");
+
 Console.ReadLine();
 
