@@ -71,11 +71,14 @@ if (svar == "d")
         System.Console.WriteLine("Fel.. D:");
         aura --;
     }
-
-System.Console.WriteLine("3. You're so skibidi you're so _____ tax");
+else while (true){
+ System.Console.WriteLine("3. You're so skibidi you're so _____ tax");
 System.Console.WriteLine("Fyll i luckan");
 System.Console.WriteLine("a) Alpha          b) Osama bin laden");
 System.Console.WriteLine("c) Fanum          d) Phantom");
+
+    //repeatar tills den kör break();
+}
 
 svar = Console.ReadLine().ToLower();
 if (svar == "c" || svar == "Fanum")
@@ -105,6 +108,7 @@ else if (svar == "a" || svar == "b" || svar == "d")
     aura --;
 }
 
+
 System.Console.WriteLine("4. Vem är Caseoh?");
 System.Console.WriteLine("a) Gorlocks pojkvän           b) En STOR twitch streamer");
 System.Console.WriteLine("c) Kevin Nyman                d) Kristian killingher");
@@ -121,6 +125,10 @@ if (svar == "b" || svar == "en twitch streamer")
         aura --;
     }
 System.Console.WriteLine("5 Vilken måltid passar inte för män?");
+//Visa mig--
+// while (true){
+//     //repeatar tills den kör break();
+// }
 
 Console.ReadLine();
 
