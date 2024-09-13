@@ -26,7 +26,19 @@
 
 using System.Diagnostics;
 using System.Net;
+using System.Runtime.InteropServices;
+using System.Threading.Tasks.Dataflow;
 using System.Xml.Schema;
+// int i= 0;
+// (true){
+//     System.Console.WriteLine(i.ToString());
+//     i++;while
+//     if (i == 5){
+//         break;
+//     }
+//     break;
+// }
+
 
 System.Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
@@ -71,14 +83,14 @@ if (svar == "d")
         System.Console.WriteLine("Fel.. D:");
         aura --;
     }
-else while (true){
- System.Console.WriteLine("3. You're so skibidi you're so _____ tax");
+// else while (true){
+System.Console.WriteLine("3. You're so skibidi you're so _____ tax");
 System.Console.WriteLine("Fyll i luckan");
 System.Console.WriteLine("a) Alpha          b) Osama bin laden");
 System.Console.WriteLine("c) Fanum          d) Phantom");
 
     //repeatar tills den kör break();
-}
+// }
 
 svar = Console.ReadLine().ToLower();
 if (svar == "c" || svar == "Fanum")
@@ -124,11 +136,76 @@ if (svar == "b" || svar == "en twitch streamer")
         System.Console.WriteLine("FEL! Du missade ju min STORA ledtråd!!!!");
         aura --;
     }
-System.Console.WriteLine("5 Vilken måltid passar inte för män?");
-//Visa mig--
+System.Console.WriteLine("5 Vem är den ultimata Rizzlern?");
+System.Console.WriteLine("a) Duke Dennis                b) Kai Cenat");
+System.Console.WriteLine("c) Vincent (obviously)        d) Livvy Dune");
+
+svar = Console.ReadLine().ToLower();
+if (svar == "a" || svar == "Duke Dennis")
+{
+    System.Console.WriteLine("Korrekt!");
+    aura ++;
+}
+
+else if (svar == "b" || svar == "c" || svar =="d")
+{
+    System.Console.WriteLine("tsk tsk tsk... Du har FEL!");
+    aura --;
+}
+
+
 // while (true){
 //     //repeatar tills den kör break();
 // }
 
+if (aura <= 0)
+{
+    System.Console.WriteLine("Oh, you're really not as sigma as a thought...");
+    System.Console.WriteLine("you gyatt" + aura + "points");
+}
+
+if (aura >= 5)
+{
+   System.Console.WriteLine("tYou are da biggest sigma!!!! ");
+   System.Console.WriteLine("You have " + aura + " points");
+}
+
 Console.ReadLine();
 
+// static void Korrekt()
+
+// {
+//     Console.WriteLine("""
+ 
+//  __    __         ______         _______         _______         ________        __    __        ________       
+// |  \  /  \       /      \       |       \       |       \       |        \      |  \  /  \      |        \      
+// | $$ /  $$      |  $$$$$$\      | $$$$$$$\      | $$$$$$$\      | $$$$$$$$      | $$ /  $$       \$$$$$$$$      
+// | $$/  $$       | $$  | $$      | $$__| $$      | $$__| $$      | $$__          | $$/  $$          | $$         
+// | $$  $$        | $$  | $$      | $$    $$      | $$    $$      | $$  \         | $$  $$           | $$         
+// | $$$$$\        | $$  | $$      | $$$$$$$\      | $$$$$$$\      | $$$$$         | $$$$$\           | $$         
+// | $$ \$$\       | $$__/ $$      | $$  | $$      | $$  | $$      | $$_____       | $$ \$$\          | $$         
+// | $$  \$$\       \$$    $$      | $$  | $$      | $$  | $$      | $$     \      | $$  \$$\         | $$         
+//  \$$   \$$        \$$$$$$        \$$   \$$       \$$   \$$       \$$$$$$$$       \$$   \$$          \$$         
+
+//     """);
+// }
+
+// static void Fel()
+// {
+//     Console.WriteLine("""
+    
+//  .----------------.   .----------------.   .----------------. 
+// | .--------------. | | .--------------. | | .--------------. |
+// | |  _________   | | | |  _________   | | | |   _____      | |
+// | | |_   ___  |  | | | | |_   ___  |  | | | |  |_   _|     | |
+// | |   | |_  \_|  | | | |   | |_  \_|  | | | |    | |       | |
+// | |   |  _|      | | | |   |  _|  _   | | | |    | |   _   | |
+// | |  _| |_       | | | |  _| |___/ |  | | | |   _| |__/ |  | |
+// | | |_____|      | | | | |_________|  | | | |  |________|  | |
+// | |              | | | |              | | | |              | |
+// | '--------------' | | '--------------' | | '--------------' |
+//  '----------------'   '----------------'   '----------------' 
+
+    
+//     """);
+// }
