@@ -1,44 +1,9 @@
-﻿// // See https://aka.ms/new-console-template for more information
-// string name = "sigma";
-
-// bool isBest = name == "sigma";
-
-// int aura = 100;
-
-// aura = aura - 40;
-
-// aura -= 1;
-// aura = aura - 1;
-// aura -= 58;
-
-
-// Console.WriteLine("Du har " + aura + "kvar ");
-
-// Console.WriteLine(aura);
-// if (aura >= 0)
-// {
-//     Console.WriteLine("Sigma still has the swag XD");
-// }
-// else
-// {
-//     Console.WriteLine("Nah you dead lol (no rizz)");
-// }
-
+﻿
 using System.Diagnostics;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks.Dataflow;
 using System.Xml.Schema;
-// int i= 0;
-// (true){
-//     System.Console.WriteLine(i.ToString());
-//     i++;while
-//     if (i == 5){
-//         break;
-//     }
-//     break;
-// }
-
 
 System.Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
@@ -83,14 +48,11 @@ if (svar == "d")
         System.Console.WriteLine("Fel.. D:");
         aura --;
     }
-// else while (true){
 System.Console.WriteLine("3. You're so skibidi you're so _____ tax");
 System.Console.WriteLine("Fyll i luckan");
 System.Console.WriteLine("a) Alpha          b) Osama bin laden");
 System.Console.WriteLine("c) Fanum          d) Phantom");
 
-    //repeatar tills den kör break();
-// }
 
 svar = Console.ReadLine().ToLower();
 if (svar == "c" || svar == "Fanum")
@@ -153,11 +115,6 @@ else if (svar == "b" || svar == "c" || svar =="d")
     aura --;
 }
 
-
-// while (true){
-//     //repeatar tills den kör break();
-// }
-
 if (aura <= 0)
 {
     System.Console.WriteLine("Oh, you're really not as sigma as a thought...");
@@ -171,41 +128,3 @@ if (aura >= 5)
 }
 
 Console.ReadLine();
-
-// static void Korrekt()
-
-// {
-//     Console.WriteLine("""
- 
-//  __    __         ______         _______         _______         ________        __    __        ________       
-// |  \  /  \       /      \       |       \       |       \       |        \      |  \  /  \      |        \      
-// | $$ /  $$      |  $$$$$$\      | $$$$$$$\      | $$$$$$$\      | $$$$$$$$      | $$ /  $$       \$$$$$$$$      
-// | $$/  $$       | $$  | $$      | $$__| $$      | $$__| $$      | $$__          | $$/  $$          | $$         
-// | $$  $$        | $$  | $$      | $$    $$      | $$    $$      | $$  \         | $$  $$           | $$         
-// | $$$$$\        | $$  | $$      | $$$$$$$\      | $$$$$$$\      | $$$$$         | $$$$$\           | $$         
-// | $$ \$$\       | $$__/ $$      | $$  | $$      | $$  | $$      | $$_____       | $$ \$$\          | $$         
-// | $$  \$$\       \$$    $$      | $$  | $$      | $$  | $$      | $$     \      | $$  \$$\         | $$         
-//  \$$   \$$        \$$$$$$        \$$   \$$       \$$   \$$       \$$$$$$$$       \$$   \$$          \$$         
-
-//     """);
-// }
-
-// static void Fel()
-// {
-//     Console.WriteLine("""
-    
-//  .----------------.   .----------------.   .----------------. 
-// | .--------------. | | .--------------. | | .--------------. |
-// | |  _________   | | | |  _________   | | | |   _____      | |
-// | | |_   ___  |  | | | | |_   ___  |  | | | |  |_   _|     | |
-// | |   | |_  \_|  | | | |   | |_  \_|  | | | |    | |       | |
-// | |   |  _|      | | | |   |  _|  _   | | | |    | |   _   | |
-// | |  _| |_       | | | |  _| |___/ |  | | | |   _| |__/ |  | |
-// | | |_____|      | | | | |_________|  | | | |  |________|  | |
-// | |              | | | |              | | | |              | |
-// | '--------------' | | '--------------' | | '--------------' |
-//  '----------------'   '----------------'   '----------------' 
-
-    
-//     """);
-// }
