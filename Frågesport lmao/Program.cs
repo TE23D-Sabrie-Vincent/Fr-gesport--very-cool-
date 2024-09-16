@@ -118,12 +118,12 @@ else if (svar == "b" || svar == "c" || svar =="d")
 if (aura <= 0)
 {
     System.Console.WriteLine("Oh, you're really not as sigma as a thought...");
-    System.Console.WriteLine("you gyatt" + aura + "points");
+    System.Console.WriteLine("you gyatt " + aura + " points");
 }
 
 if (aura >= 5)
 {
-   System.Console.WriteLine("tYou are da biggest sigma!!!! ");
+   System.Console.WriteLine("You are da biggest sigma!!!! ");
    System.Console.WriteLine("You have " + aura + " points");
 }
 
